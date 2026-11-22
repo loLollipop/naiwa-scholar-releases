@@ -1,0 +1,62 @@
+{
+  "product": "Naiwa Scholar",
+  "version": "0.16.2",
+  "platform": "windows-x86_64",
+  "build_date": "2026-11-22",
+  "distribution_license": "AGPL-3.0-or-later for the combined application; original component notices retained",
+  "assets": [
+    {
+      "name": "Naiwa-Scholar-Windows-x64-Setup.exe",
+      "bytes": 201796277,
+      "sha256": "609cc07c76523fe9788282e7c3c94610dc2dbec5b5fc6b67c0c6b8d61752f80b"
+    },
+    {
+      "name": "Naiwa-Scholar-0.16.2-Source.zip",
+      "bytes": 21382874,
+      "sha256": "22d83e95f1e31beb8195479a76c152c750f35d88b11907f30c1a309adef19743"
+    }
+  ],
+  "source_files_manifest_sha256": "b61576a10524053e88150477ee9f6769807fee9596e8bc27445714b4243c9908",
+  "source_files": 2924,
+  "application_executable_sha256": "a7ba984a07c074b547accc199e350520faa30271e04f6845bbf0973f10d7aa91",
+  "toolchain": {
+    "rust": "1.100.0",
+    "node": "24.14.0",
+    "pnpm": "11.25.0",
+    "tauri_cli": "2.12.4",
+    "msvc": "14.44.35207",
+    "windows_sdk": "10.0.26100.0",
+    "vc_runtime": "14.44.35211"
+  },
+  "windows_authenticode_signed": false,
+  "verification": {
+    "scope": "Unpacked the actual NSIS installer into an isolated directory; no install over an existing application",
+    "installer_and_exe_branding": true,
+    "all_six_icon_images_match_source": true,
+    "clean_first_launch": true,
+    "create_library_and_import_pdf": true,
+    "pdf_original_render": true,
+    "continuous_reader_text": true,
+    "worker_script_errors": 0,
+    "agent_model_options_match_selected_agent_report": true,
+    "restart_restores_library_pdf_and_notes": true,
+    "bundled_resources_and_checksums": true,
+    "user_configuration_preinstalled": false,
+    "vc_runtime_dlls_verified": 10,
+    "frontend_tests": {
+      "passed": 4193,
+      "skipped": 13
+    },
+    "core_tests": {
+      "passed": 986,
+      "ignored": 8
+    },
+    "bindings_contract_tests_passed": 1,
+    "event_contract_tests_passed": 9,
+    "typescript": true,
+    "module_dependencies": true,
+    "not_exercised": [
+      "Full installation, in-place upgrade, and uninstallation of this exact full payload"
+    ]
+  }
+}

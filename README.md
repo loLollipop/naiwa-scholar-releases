@@ -27,7 +27,7 @@ Naiwa Scholar 是面向论文整理、PDF 阅读和双语阅读的 Windows 桌�
 
 ## 从源码构建
 
-解压对应版本的源码包，在已安装 Rust MSVC、Windows SDK、CMake、LLVM/libclang、Node.js 和 pnpm 的 Windows x64 开发终端中运行：
+解压对应版本的源码包，在已安装 Rust MSVC、Windows SDK、CMake、LLVM/libclang、Node.js、pnpm 和 VC++ 可再发行组件的 Windows x64 开发终端中运行：
 
 ```powershell
 pnpm install --frozen-lockfile
